@@ -1,0 +1,8 @@
+[
+  "mean_rr_ms",
+  "mean_hr_bpm",
+  "sdnn_ms",
+  "rmssd_ms",
+  "pnn50_pct",
+  "rr_range_ms"
+]

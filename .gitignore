@@ -1,0 +1,94 @@
+# =========================================================
+# STM32CubeIDE build output
+# =========================================================
+Debug/
+Release/
+**/Debug/
+**/Release/
+build/
+**/build/
+
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+*.siz
+*.log
+
+
+# =========================================================
+# Eclipse / STM32CubeIDE temporary workspace files
+# =========================================================
+.metadata/
+**/.metadata/
+
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+.env/
+
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+
+# =========================================================
+# Raw datasets
+# =========================================================
+WESAD/
+datasets/
+data/raw/
+
+*.pkl
+*.pickle
+
+# PhysioNet / MIT-BIH downloaded records
+*.dat
+*.hea
+*.atr
+*.xws
+
+
+# =========================================================
+# Large/reproducible ML training artifacts
+# =========================================================
+*.keras
+*.h5
+
+feature_mean.npy
+feature_std.npy
+
+
+# =========================================================
+# Generated local profiling / experiment output
+# =========================================================
+results/raw/
+logs/
+temp/
+tmp/
+
+
+# =========================================================
+# ST proprietary/precompiled runtime libraries
+# =========================================================
+Middlewares/ST/AI/Lib/*.a
